@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Galindo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Galindo", display;
+  font-family: "Fugaz One";
+  overflow-x: hidden;
+}
+.Header {
+  background-image: url("./assets/diningroom.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.liner {
+  background: linear-gradient(
+    0deg,
+    #171717 0%,
+    rgba(0, 0, 0, 0.8) 29.02%,
+    rgba(4, 4, 4, 0.67) 47.44%,
+    rgba(0, 0, 0, 0.5) 72.01%,
+    rgba(0, 0, 0, 0.14) 91.12%,
+    rgba(0, 0, 0, 0) 100.49%,
+    rgba(0, 0, 0, 0.29) 102.01%
+  );
+}
+.btn {
+  border: 5px solid #a38354;
+}
+.btn:hover {
+  background: white;
+  color: #a38354;
+  border: none;
+}
+a {
+  position: relative;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.175);
+  backdrop-filter: blur(3px);
+  max-width: 100%;
+  z-index: 1000;
+  width: 100%;
+  padding-top: 70px;
+}
+
+/* .swiper-button-prev {
+  color: black !important;
+  background-color: rgba(255, 255, 255, 0.773) !important;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  /* padding: 5rem; */
+margin-left: 20rem;
+*/
+
+
+
+/* 
+.swiper-button-next {
+  color: black !important;
+  background-color: rgba(255, 255, 255, 0.773) !important;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  padding: 5rem;
+  margin-left: 5rem;
+  
+} */
+
+.teg-modal {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  padding: 5px 7px;
+}
+.text {
+  font-family: "Galindo";
+}
+.swiper-button-prev {
+  color: white !important;
+  background-color: #181f28 !important;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  margin-left: 5rem;
+}
+.swiper-button-next {
+  color: white !important;
+  background-color: #181f28 !important;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  margin-right: 4rem;
+}
+.restengle {
+  position: absolute;
+  margin-top: -25rem;
+  left: -100%;
+  transition: left 0.3s ease;
+}
+.property:hover ~ .restengle {
+  left: 0;
+}
+.header_bg {
+  background-image: url("./assets/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  color: rgba(218, 187, 127, 0.03);
+  height: 200px;
+  padding-top: 2rem;
+}
+.bagraund {
+  background-image: url("./images/home2-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #181f28;
+}
+.badroom {
+  background-image: url("./images/Bedroom-bg.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 200px;
+  color: rgba(225, 223, 218, 0.03);
+  margin-top: 6rem;
+  margin-left: 9rem;
+  font-family: "Fugaz One";
+}
+.boglanish {
+  background-image: url("./Image/Bog’lansh.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 200px;
+  color: rgba(225, 223, 218, 0.03);
+  margin-left: 9rem;
+  font-family: "Fugaz One";
+}
+.bag_img {
+  background-image: url("./Image/Rectang.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.Biz-mebel {
+  background-image: url("./images/Bizning_mebel.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  color: rgba(225, 223, 218, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text {
+  font-family: "Galindo";
+}
+.active {
+  border-bottom: 3px solid #a38354;
+  border-radius: 2px;
+  transition: 1.5s;
+}
